@@ -455,7 +455,7 @@ def resetAgent(agent):
 def main():
     #trainning the agent         
     agent1 = Agent("agent1","X",exp_rate=0.3) 
-    loadPolicy(agent1)
+    #loadPolicy(agent1)
     agent2 = Agent("agent2","O",exp_rate=0.4)        
     createboard()
     play(agent1,agent2)
